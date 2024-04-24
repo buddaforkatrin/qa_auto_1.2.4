@@ -1,59 +1,61 @@
-commit f9c5550bf0c02074e56063cfbf20cb6941398d49
-Author: buddaforkatrin <buddaforkatrin@gmail.com>
-Date:   Mon Apr 22 20:41:15 2024 +0200
+d625b93 (HEAD -> main, origin/main, origin/HEAD) Merge branch 'main' of https://github.com/buddaforkatrin/qa_auto_1.2.4
+8f4fff2 1.2.4 gitlog file added
+57271ac added third md
+f9c5550 added second md
+37b9c98 added first md
+26b2d85 Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+evaniukhina@MacBook-Air qa_auto_1.2.4 % git reset 57271ac 
+evaniukhina@MacBook-Air qa_auto_1.2.4 % git log --oneline
+57271ac (HEAD -> main) added third md
+f9c5550 added second md
+37b9c98 added first md
+26b2d85 Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+evaniukhina@MacBook-Air qa_auto_1.2.4 % git reset --soft f9c5550 
+evaniukhina@MacBook-Air qa_auto_1.2.4 % git log --oneline        
+f9c5550 (HEAD -> main) added second md
+37b9c98 added first md
+26b2d85 Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+evaniukhina@MacBook-Air qa_auto_1.2.4 % git reset --hard 37b9c98      
+HEAD is now at 37b9c98 added first md
+evaniukhina@MacBook-Air qa_auto_1.2.4 % git log --oneline       
+37b9c98 (HEAD -> main) added first md
+26b2d85 Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
+evaniukhina@MacBook-Air qa_auto_1.2.4 % git reset --mixed 26b2d85
+evaniukhina@MacBook-Air qa_auto_1.2.4 % git log --oneline        
+26b2d85 (HEAD -> main) Update your-task-here.md
+93e058d Update your-task-here.md
+685ce8d Update README.md
+047c466 Update your-task-here.md
+c2930aa Update your-task-here.md
+05f3594 rename task file
+b85e79d add a task for students
+d2fa1c4 Create README.md
 
-    added second md
-
-commit 37b9c98be430442187b9aede5a72ee60b29fe65d
-Author: buddaforkatrin <buddaforkatrin@gmail.com>
-Date:   Mon Apr 22 20:38:13 2024 +0200
-
-    added first md
-
-commit 26b2d85e07d4806af118739beeadfd5e23ba7caa
-Author: Oksana M <36515885+Melnioks@users.noreply.github.com>
-Date:   Mon Oct 9 09:50:24 2023 +0200
-
-    Update your-task-here.md
-
-commit 93e058d3321dba27a85c21668c2d16de96eb05fe
-Author: ommelnikova <115581444+ommelnikova@users.noreply.github.com>
-Date:   Thu Oct 20 08:42:47 2022 +0200
-
-    Update your-task-here.md
-
-commit 685ce8d7bbcb6780cc0fcde65ea418bf9c880682
-Author: ommelnikova <115581444+ommelnikova@users.noreply.github.com>
-Date:   Fri Oct 14 19:37:47 2022 +0200
-
-    Update README.md
-
-commit 047c4668909c27e1be9fe0abb34fcf6370cd366b
-Author: ommelnikova <115581444+ommelnikova@users.noreply.github.com>
-Date:   Fri Oct 14 19:37:00 2022 +0200
-
-    Update your-task-here.md
-
-commit c2930aad7b19074cd051283f785bb01432b7c230
-Author: ommelnikova <115581444+ommelnikova@users.noreply.github.com>
-Date:   Fri Oct 14 19:36:15 2022 +0200
-
-    Update your-task-here.md
-
-commit 05f3594029bcd7565aaf0eedb3bbae0b253b08ed
-Author: ommelnikova <115581444+ommelnikova@users.noreply.github.com>
-Date:   Fri Oct 14 19:34:42 2022 +0200
-
-    rename task file
-
-commit b85e79d9f428bc7effa6b2052879908817211b3c
-Author: ommelnikova <115581444+ommelnikova@users.noreply.github.com>
-Date:   Fri Oct 14 19:31:45 2022 +0200
-
-    add a task for students
-
-commit d2fa1c4e4a3744232254bfcc3b62da9e3a5be353
-Author: ommelnikova <115581444+ommelnikova@users.noreply.github.com>
-Date:   Fri Oct 14 18:47:25 2022 +0200
-
-    Create README.md
